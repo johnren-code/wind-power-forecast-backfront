@@ -53,7 +53,7 @@ export default {
   },
   methods: {
     processUrl (url) {
-      return 'http://127.0.0.1:8888' + url.substring(1)
+      return 'http://124.220.56.38:8888' + url.substring(1)
     },
     userSave () {
       userUpdate(this.selectUser).then(res => {

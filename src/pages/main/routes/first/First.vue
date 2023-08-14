@@ -128,7 +128,7 @@ export default {
   },
   methods: {
     processUrl (url) {
-      return 'http://127.0.0.1:8888' + url.substring(1)
+      return 'http://124.220.56.38:8888' + url.substring(1)
     },
     showImport () {
       this.$refs.userImport.show()
@@ -152,7 +152,7 @@ export default {
       })
     },
     uploadFile (user) {
-      var downloadUrl = 'http://127.0.0.1:8888' + user.avatar.substring(1)
+      var downloadUrl = 'http://124.220.56.38:8888' + user.avatar.substring(1)
       let a = document.createElement('a')
       a.href = downloadUrl
       a.click()
